@@ -1,0 +1,129 @@
+:root {
+  /* Font */
+  --primary-font: Open Sans, Sans-serif;
+  --secondary-font: Raleway, Sans-serif;
+
+  /* Text-color */
+  --grey-txt-color: #555555;
+  --secondary-txt-color: #9da4bd;
+  --nav-txt-color: #ffffff;
+  --accent-txt-color: #ff6c00;
+  --main-txt-color: #303030;
+
+  /* Accent-colors */
+  --hover-color: #ff6c00;
+  /* BG-color */
+  --hero-bg-color: #111319;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-color);
+}
+
+/* reset */
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/**
+  |============================
+  | Header Style
+  |============================
+*/
+.header {
+  background-color: var(--hero-bg-color);
+}
+.header-link,
+.header-cont {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: var(--nav-txt-color);
+}
+.header-link:hover,
+.header-link:focus,
+.header-cont:hover,
+.header-cont:focus {
+  color: var(--accent-txt-color);
+}
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--nav-txt-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+.header-btn:hover,
+.header-btn:hover {
+  background-color: var(--hover-color);
+}
+/**
+  |============================
+  | Hero Style
+  |============================
+*/
+.hero {
+  background-color: var(--hero-bg-color);
+}
+.social-network {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  color: var(--main-txt-color);
+}
+.social-network:hover,
+.social-network:hover {
+  color: var(--accent-txt-color);
+}
+.hero-uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--secondary-txt-color);
+}
+.hero-title {
+  font-family: var(--secondary-font);
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--nav-txt-color);
+}
+.hero-desc {
+  color: var(--secondary-txt-color);
+}
+/**
+  |============================
+  | About style
+  |============================
+*/
+.about-uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--main-txt-color);
+}
+.about-title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--main-txt-color);
+}

@@ -15,8 +15,8 @@
   </head>
   <body>
     <!-- HEADER SECTION -->
-    <header>
-      <a href="">
+    <header class="header">
+      <a class="logo" href="">
         <img
           src="./image/Logo/logo.jpg"
           alt="BarberShop"
@@ -25,32 +25,36 @@
         />
       </a>
       <nav>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="#about">About</a>
+            <a class="link header-link" href="#about">About</a>
           </li>
-          <li><a href="#prices">Services and prices</a></li>
-          <li><a href="#barbers">Barbers</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+          <li>
+            <a class="link header-link" href="#prices">Services and prices</a>
+          </li>
+          <li><a class="link header-link" href="#barbers">Barbers</a></li>
+          <li><a class="link header-link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
-      <a href="teL:+380441111111">+38 044 111 11 11</a>
-      <button type="button">Online-booking</button>
+      <a class="link header-cont" href="teL:+380441111111">+38 044 111 11 11</a>
+      <button class="header-btn" type="button">Online-booking</button>
     </header>
     <main>
       <!-- HERO SECTION -->
-      <section>
-        <ul>
-          <li>
+      <section class="hero">
+        <ul class="list">
+          <li class="social-item">
             <a
+              class="link social-network"
               href="https://Instagram.com"
               target="_blank"
               rel="noopener noreferrer"
               >Instagram</a
             >
           </li>
-          <li>
+          <li class="social-item">
             <a
+              class="link social-network"
               href="https://Youtube.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -58,30 +62,32 @@
             >
           </li>
         </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p class="hero-uppertitle">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-desc">
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
         </p>
-        <ul>
+        <!-- <ul class="list">
           <li><button type="button">Back</button></li>
           <li><button type="button">Forward</button></li>
-        </ul>
+        </ul> -->
       </section>
       <!-- ABOUT SECTION -->
-      <section id="about">
-        <ul>
-          <li>
+      <section id="about" class="about">
+        <ul class="list about-list">
+          <li class="about-item">
             <img
+              class="about-img"
               src="./image/About/img-1.jpg"
               alt="Beard trim"
               width="270"
               height="445"
             />
           </li>
-          <li>
+          <li class="about-item">
             <img
+              class="about-img"
               src="./image/About/img-2.jpg"
               alt="Straight razor shave"
               width="270"
@@ -89,31 +95,31 @@
             />
           </li>
         </ul>
-        <p>About</p>
-        <h2>Best Barbershop in your city</h2>
-        <p>
+        <p class="about-uppertitle">About</p>
+        <h2 class="about-title">Best Barbershop in your city</h2>
+        <p class="about-introduc">
           If you want to add more confidence to your image, you should visit us.
         </p>
-        <p>
+        <p class="about-desc">
           We are a team that never stops at what has been achieved and are
           thirsty for changes. And when you fall into the hands of our master,
           you will never be the same again. We are a team that is always "on the
           same wave" with clients. Therefore, we are always ready to improve
           everyone who comes to us!
         </p>
-        <button type="button">Online-booking</button>
+        <button class="about-btn" type="button">Online-booking</button>
       </section>
       <!-- PRICE SECTION -->
       <section id="prices">
         <p>Spend your time with the best masters</p>
         <h2>Services and prices</h2>
-        <ul>
+        <ul class="list">
           <li>Men’s haircut from 300 uah.</li>
           <li>Beard trim from 300 uah.</li>
           <li>Mustache trim from 200 uah.</li>
           <li>Straight razor shave from 200 uah.</li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>Trainee’s haircut from 50 uah.</li>
           <li>Haircut under the nozzle from 200 uah.</li>
           <li>Children’s haircut (0-12 y.o.) from 300 uah.</li>
@@ -123,7 +129,7 @@
       </section>
       <!-- BENEFITS SECTION -->
       <section>
-        <ul>
+        <ul class="list">
           <li>
             <p>600<sup>+</sup></p>
             <p>Satisfied customers per day</p>
@@ -152,7 +158,7 @@
       <section id="barbers">
         <p>For true enjoyers of the atmosphere</p>
         <h2>Our barbers</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./image/Team/img-1.jpg"
@@ -189,7 +195,7 @@
       <section>
         <h2>Our gallery</h2>
         <p>In Latin, "barba" means "beard"</p>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./image/gallery/Rectangle25.jpg"
@@ -233,16 +239,22 @@
       <section id="contacts">
         <h2>Contacts</h2>
         <address>
-          <ul>
+          <ul class="list">
             <li>
-              <a href=""
+              <a class="link" href=""
                 >st. Vasilkovaya, 7A <br />
                 Kiev, 08132</a
               >
             </li>
-            <li><a href="teL:+380441111111">+38 044 111 11 11</a></li>
             <li>
-              <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+              <a class="link" class="link" href="teL:+380441111111"
+                >+38 044 111 11 11</a
+              >
+            </li>
+            <li>
+              <a class="link" href="mailto:barbershop@email.com"
+                >barbershop@email.com</a
+              >
             </li>
           </ul>
         </address>
@@ -256,9 +268,10 @@
       <!-- FOTTER SECTION -->
       <footer>
         <p>&#169; Copyright 2020</p>
-        <ul>
+        <ul class="list">
           <li>
             <a
+              class="link"
               href="https://Instagram.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -267,6 +280,7 @@
           </li>
           <li>
             <a
+              class="link"
               href="https://Youtube.com"
               target="_blank"
               rel="noopener noreferrer"
