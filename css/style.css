@@ -67,7 +67,7 @@ body {
   cursor: pointer;
 }
 .header-btn:hover,
-.header-btn:hover {
+.header-btn:focus {
   background-color: var(--hover-color);
 }
 /**
@@ -125,5 +125,98 @@ body {
   font-size: 42px;
   line-height: 1.16;
   letter-spacing: 0.05em;
+  color: var(--main-txt-color);
+}
+.about-introduc {
+  color: var(--grey-txt-color);
+}
+.about-desc {
+  font-size: 14px;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+  color: var(--grey-txt-color);
+}
+.about-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  color: var(--main-txt-color);
+  cursor: pointer;
+}
+.about-btn:hover,
+.about-btn:focus {
+  color: var(--nav-txt-color);
+  background-color: var(--hover-color);
+}
+
+/**
+  |============================
+  | Price style
+  |============================
+*/
+.price {
+  background-color: var(--hero-bg-color);
+}
+.price-uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--main-txt-color);
+}
+.price-title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--nav-txt-color);
+}
+.price-item {
+  color: var(--secondary-txt-color);
+}
+.price-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--nav-txt-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+.price-btn:hover,
+.price-btn:focus {
+  background-color: var(--hover-color);
+}
+
+/**
+  |============================
+  | Benefits style
+  |============================
+*/
+.number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.35;
+  letter-spacing: 0.05em;
+  color: var(--main-txt-color);
+}
+.number-desc {
+  font-weight: 7600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  color: var(--main-txt-color);
+}
+.benefits-uppertitle .price-uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
   color: var(--main-txt-color);
 }
