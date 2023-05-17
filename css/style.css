@@ -206,17 +206,159 @@ body {
   color: var(--main-txt-color);
 }
 .number-desc {
-  font-weight: 7600;
+  font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.01em;
   color: var(--main-txt-color);
 }
-.benefits-uppertitle .price-uppertitle {
+.benefits-uppertitle {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.01em;
   text-transform: uppercase;
   color: var(--main-txt-color);
+}
+.benefits-title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--main-txt-color);
+}
+.benefits-desc {
+  color: var(--secondary-txt-color);
+}
+
+/**
+  |============================
+  | Team style
+  |============================
+*/
+.team-uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--main-txt-color);
+}
+.team-title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--main-txt-color);
+}
+.team-name {
+  font-weight: 400;
+}
+.team-position {
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  color: var(--accent-txt-color);
+}
+
+/**
+  |============================
+  | Gallery style
+  |============================
+*/
+.gallery-uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--main-txt-color);
+}
+/**
+  |============================
+  | Online-boking style
+  |============================
+*/
+.online-boking {
+  background-color: var(--hero-bg-color);
+}
+.online-title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--nav-txt-color);
+}
+.online-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--nav-txt-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+.online-btn:hover,
+.online-btn:focus {
+  background-color: var(--hover-color);
+}
+
+/**
+  |============================
+  | Contacts style
+  |============================
+*/
+.contacts {
+  background-color: var(--hero-bg-color);
+}
+.contact-title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--nav-txt-color);
+}
+.contacts-item:first-child .contacts-link {
+  font-weight: 700;
+}
+.contacts-link {
+  font-style: normal;
+  color: var(--secondary-txt-color);
+}
+.contacts-uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--secondary-txt-color);
+}
+.contacts-decs {
+  color: var(--secondary-txt-color);
+}
+
+/**
+  |============================
+  |Footer style
+  |============================
+*/
+.copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  color: var(--secondary-txt-color);
+}
+.footer-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  color: var(--main-txt-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-txt-color);
 }
