@@ -362,3 +362,71 @@ body {
 .footer-link:focus {
   color: var(--accent-txt-color);
 }
+/**
+  |============================
+  | Example
+  |============================
+*/
+.exampl {
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  width: 249px;
+  height: 381px;
+
+  background-color: #a4cb66;
+}
+.title-fruts {
+  margin: 0 0 61px 0;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-align: center;
+}
+.text {
+  rotation: 14px;
+  margin: 0;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 155px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.img {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2px;
+  inset: 0;
+}
+.oval {
+  width: 239px;
+  height: 38px;
+  color: red;
+}
+.main-picture {
+  position: relative;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  width: 452px;
+  height: 702px;
+
+  background-color: transparent;
+}
+.main-img {
+  position: absolute;
+}
+
+/* .logo {
+  display: inline-block;
+  overflow: hidden;
+} */
